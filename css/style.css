@@ -1,0 +1,96 @@
+
+.headTitle {
+    padding-top: 80px;
+    padding-bottom: 49px;
+}
+
+.headTitle h1{
+    font-size: 74px;
+    font-family: "Contrail One", sans-serif;
+    color: #afbee7ba;
+    text-shadow: -4px 4px 3px #1565C0;
+}
+
+.btlShipText {
+    text-shadow: 0px 5px 2px #0c1c6b;
+    color: #4d41ff6b;
+}
+
+.btnsContain {
+    padding-left: 501px;
+}
+
+.btnsContain button {
+    height: 103px;
+    width: 103px;
+}
+
+button:hover {
+    background-color: rgb(152, 154, 243);
+}
+
+html, body { height: 100%; }
+body {
+  background: radial-gradient(rgba(255,254,234,1) 0%, rgba(255,254,234,1) 35%, #B7E8EB 100%);
+}
+
+.ocean {
+  height: 5%;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: #015871;
+}
+
+.wave {
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/85486/wave.svg) repeat-x;
+  position: absolute;
+  width: 6400px;
+  top: -198px;
+  left: 0;
+  height: 198px;
+  transform: translate(0, 0, 0);
+  animation: wave 7s ease infinite;
+}
+
+.wave:nth-of-type(2) {
+  top: -168px;
+  animation: swell 4s ease infinite;
+  opacity: 1;
+}
+
+@keyframes wave {
+  0% { margin-left: 0; }
+  100% { margin-left: -1600px;}
+}
+@keyframes swell {
+  0%, 100% {
+    transform: translate(0, -30px);
+  }
+  50% {
+    transform: translate(0, 5px);
+  }
+}
+
+#btlShipImg {
+    position: absolute;
+    height: 412px;
+    right: 1033px;
+    top: 282px;
+    animation: rock 4s infinite;
+}
+
+#pirateShipImg {
+    position: absolute;
+    height: 300px;
+    left: 1043px;
+    top: 372px;
+    animation: rock 4s infinite;
+}
+
+@keyframes rock {
+    0% { transform: rotate(-10deg); }
+    50% { transform: rotate(10deg); }
+    100% { transform: rotate(-10deg); }
+}
