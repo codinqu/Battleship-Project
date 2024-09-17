@@ -103,3 +103,11 @@ body {
 .clear {
   background-color: darkgreen;
 }
+
+.mines:hover {
+  background-color: rgb(254, 91, 91);
+}
+
+.clear:hover {
+  background-color: rgb(82, 245, 82);
+}
