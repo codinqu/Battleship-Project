@@ -94,3 +94,12 @@ body {
     50% { transform: rotate(10deg); }
     100% { transform: rotate(-10deg); }
 }
+
+
+.mines {
+  background-color: red;
+} 
+
+.clear {
+  background-color: darkgreen;
+}
