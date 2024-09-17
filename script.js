@@ -3,12 +3,14 @@
 const maxMines = 4;
 
 const rowSize = 3;
+// if you change this number the maxBattleSize variable will change the battlefield size
 
 const maxBattleSize = rowSize * rowSize;
 
 const gridContain = document.getElementById('gridBtns');
 
 const mines = createMines(maxMines, maxBattleSize);
+// mines variable is holding the function createMines
 
 
 
