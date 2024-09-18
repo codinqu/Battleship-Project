@@ -94,9 +94,9 @@ during the animation. percentage is representing the timeline of the animation.*
 }
 
 @keyframes rock {
-    0% { transform: rotate(-10deg); }
-    50% { transform: rotate(10deg); }
-    100% { transform: rotate(-10deg); }
+    0% { transform: rotate(-9deg); }
+    50% { transform: rotate(9deg); }
+    100% { transform: rotate(-9deg); }
 }
 
 
